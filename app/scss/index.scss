@@ -1,0 +1,39 @@
+$colorFirstbox: chartreuse;
+$colorSecondBox: red;
+$bg: yellow;
+
+.first-box {
+  color: $colorFirstbox;
+
+  .second {
+    color: $colorSecondBox;
+
+    .baba {
+      background-color: $bg;
+    }
+  }
+}
+.baba {
+  background-color: red;
+}
+
+.first-box {
+  .img-box{
+
+    max-height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    img {
+      width: 30%;
+      box-sizing: border-box;
+
+    }
+  }
+}
+
+
+
+
+
